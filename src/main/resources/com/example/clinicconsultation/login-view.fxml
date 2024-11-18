@@ -22,9 +22,9 @@
                      </font>
                   </Label>
                   <Label layoutX="93.0" layoutY="62.0" text="Clinic Consultation" />
-                  <TextField layoutX="48.0" layoutY="186.0" prefHeight="25.0" prefWidth="196.0" />
-                  <PasswordField layoutX="48.0" layoutY="231.0" prefHeight="25.0" prefWidth="196.0" />
-                  <TextField layoutX="48.0" layoutY="231.0" prefHeight="25.0" prefWidth="196.0" visible="false" />
+                  <TextField layoutX="48.0" layoutY="186.0" prefHeight="25.0" prefWidth="196.0" promptText="user name" />
+                  <PasswordField layoutX="48.0" layoutY="231.0" prefHeight="25.0" prefWidth="196.0" promptText="password" />
+                  <TextField layoutX="48.0" layoutY="231.0" prefHeight="25.0" prefWidth="196.0" promptText="password" visible="false" />
                   <CheckBox layoutX="48.0" layoutY="265.0" mnemonicParsing="false" text="Show password" />
                   <Button layoutX="81.0" layoutY="327.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="104.0" text="Login" />
                </children>
